@@ -1,0 +1,110 @@
+#content {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 9fr;
+    background-color: lightgray;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    padding: 1vw;
+    grid-column: 1/3;
+    grid-row: 1;
+    border: 2px solid black;
+}
+
+#sidebar {
+    background-color: lightgreen;
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    justify-content: flex-start;
+    padding: 0.2vw;
+    padding-top: 1vw;
+}
+
+#add-project {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    justify-content: flex-start;
+    padding: 0.2vw;
+}
+
+.project {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    justify-content: flex-end;
+    padding: 0.2vw;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    justify-content: flex-start;
+    padding: 1vw;
+}
+
+.to-do {
+    display: flex;
+    justify-content: stretch;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
+}
+
+.to-do-name {
+    flex: 1;
+}
+
+.to-do-date {
+    flex: 1;
+}
+
+.expanded-to-do {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 5vw;
+    margin-right: 2vw;
+}
+
+.expanded-to-do-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 65vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
+}
+
+.expanded-to-do-line-2 {
+    display: flex;
+    justify-content: stretch;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
+}
+
+.to-do-desc {
+    align-self: center;
+    flex: 1;
+}
+
+button {
+    background-color: lightcoral;
+    border-radius: 2px;
+    align-self: flex-end;
+    margin: 2vw;
+    padding: 0.2vw;
+}
