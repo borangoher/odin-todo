@@ -64,6 +64,12 @@
     font-size: 1vw;
 }
 
+#add-to-do {
+    align-self: flex-end;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
 .to-do-name {
     flex: 1;
 }
@@ -107,4 +113,8 @@ button {
     align-self: flex-end;
     margin: 2vw;
     padding: 0.2vw;
+}
+
+.invisible {
+    display: none !important;
 }
